@@ -39,7 +39,7 @@
 
 
 // Q7
-var colors= ["red","green","blue"]
+var colors= ["red", "green", "blue", "yellow", "black"]
 // a
 // var add = prompt("Enter color to add to the beginning")
 // colors.unshift(add)
@@ -61,9 +61,13 @@ var colors= ["red","green","blue"]
 // console.log(colors)
 
 // f
-var index = prompt("Enter index to add color")
-var color = prompt("Enter color to add")
-colors.splice(index,0,color)
-console.log(colors)
+// var index = prompt("Enter index to add color")
+// var color = prompt("Enter color to add")
+// colors.splice(index,0,color)
+// console.log(colors)
 
 // g
+var   index = +prompt("Enter index to delete")
+var color = +prompt("Enter how many color to delete")
+colors.splice(index,color)
+console.log(colors)
