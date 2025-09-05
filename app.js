@@ -130,3 +130,23 @@
 
 
 // Q14
+
+// var matrix = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ]
+// console.log(matrix)
+
+
+// Q15
+// var names = ["john", "smith", "andrew", "ahmed"];
+// console.log("First element of the array is " + names[0])
+// console.log("Last element of the array is " + names[names.length-1])
+
+
+// Q16
+// var names = ["john", "smith", "andrew", "ahmed"];
+// names.length = 0
+// console.log(names.length)
+// console.log(names)
