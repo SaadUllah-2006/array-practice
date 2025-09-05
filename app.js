@@ -39,7 +39,7 @@
 
 
 // Q7
-var colors= ["red", "green", "blue", "yellow", "black"]
+// var colors= ["red", "green", "blue", "yellow", "black"]
 // a
 // var add = prompt("Enter color to add to the beginning")
 // colors.unshift(add)
@@ -67,7 +67,66 @@ var colors= ["red", "green", "blue", "yellow", "black"]
 // console.log(colors)
 
 // g
-var   index = +prompt("Enter index to delete")
-var color = +prompt("Enter how many color to delete")
-colors.splice(index,color)
-console.log(colors)
+// var   index = +prompt("Enter index to delete")
+// var color = +prompt("Enter how many color to delete")
+// colors.splice(index,color)
+// console.log(colors)
+
+// Q8
+
+// var student = [320,180,120,400,800]
+// var sorted_students = student.sort()
+// console.log(sorted_students)
+
+
+// Q9
+
+// var fruits = ["Strawberry","Orange","Mango","Banana","Peach"]
+// var sorted_fruits = fruits.sort()
+// console.log(sorted_fruits)
+
+
+// Q10
+
+// var cities = ["Islamabad","Karachi","Quetta","Peshawar","lahore"]
+// var selected_cities = cities.slice(1,4)
+// console.log(selected_cities)
+
+// Q11
+// var arr = ["This","is","my","cat"]
+// var join_arr = arr.join(" ")
+// console.log(join_arr)
+
+
+// Q12
+// var list = []
+//
+// list.push("Keyboard")
+// list.push("Mouse")
+// list.push("Printer")
+// list.push("Speaker")
+// console.log(list)
+//
+// list.shift()
+// list.shift()
+// list.shift()
+// console.log(list)
+
+
+// Q13
+// var list = []
+//
+//
+// list.push("Mouse")
+// list.push("Monitor")
+// list.push("Speaker")
+// list.push("Keybroad")
+// console.log(list)
+// list.pop()
+// console.log(list)
+// list.pop()
+// list.pop()
+// console.log(list)
+
+
+// Q14
