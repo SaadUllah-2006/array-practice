@@ -203,3 +203,14 @@ var x = [
 ];
 
 console.log(x[2][1])
+
+
+// // Q22
+//
+// var url = "https://jsonplaceholder.typicode.com/users";
+// var part = url.split("/")
+//
+// var users = part[part.length-1]
+// console.log(users)
+//
+// console.log(typeof users)
