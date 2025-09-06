@@ -150,3 +150,56 @@
 // names.length = 0
 // console.log(names.length)
 // console.log(names)
+
+// Q17
+// var names = ["john", "smith", "andrew", "ahmed"]
+//
+// var user = prompt("Enter User Name: ")
+// if (names.includes(user)){
+//     console.log("Yes " + user + " in Array")
+// }else{
+//     console.log("No " + user + " not in Array")
+// }
+
+
+// Q18
+
+// var animal = ["lion","Cheetah","Girafe","Dog","Ant"]
+// var ani1= prompt("Enter Animal 1: ")
+// var ani2= prompt("Enter Animal 2: ")
+//
+// animal.splice(3,0,ani1,ani2)
+//
+// console.log(animal)
+
+
+// Q19
+// var word = prompt("Enter Your Word: ")
+//
+// var reversed = word.slice().split("").reverse().join("")
+//
+// if (word == reversed){
+//     console.log("Yes " + word + " is palindrome")
+// }else {
+//
+//     console.log("No " + word + " is not  palindrome")
+// }
+
+// Q20
+
+// var element = ["lion","Cheetah","Girafe","Dog","Ant"]
+//
+// var last  = element.length-1
+//
+// console.log(last)
+
+
+// Q22
+
+var x = [
+    ['Jack', 24],
+    ['Sara', 23],
+    ['Peter', 24]
+];
+
+console.log(x[2][1])
